@@ -156,7 +156,7 @@
             configureApplicationServer(routeAPI);
 
             // start listenting
-            app.set('port', 80);
+            app.set('port', 8080);
             server.listen(app.get('port'), function() {
                 console.log("express server listening on port: ".green + ("" + app.get('port')).cyan);
             });
