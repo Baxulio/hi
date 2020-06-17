@@ -1,2 +1,2 @@
 # hi
-Himan Intuition
+Human Intuition
